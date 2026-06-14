@@ -1,3 +1,11 @@
+"""
+Snake Game Using BFS - Portfolio Version
+Modified and documented by Hassan Abdulsalam Mohammed
+Copyright (c) 2026 Hassan Abdulsalam Mohammed
+
+This file is part of the cleaned GitHub portfolio version.
+"""
+
 import pygame
 from settings import *
 from copy import deepcopy

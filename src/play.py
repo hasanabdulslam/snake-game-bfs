@@ -1,3 +1,11 @@
+"""
+Snake Game Using BFS - Portfolio Version
+Modified and documented by Hassan Abdulsalam Mohammed
+Copyright (c) 2026 Hassan Abdulsalam Mohammed
+
+This file is part of the cleaned GitHub portfolio version.
+"""
+
 from pathlib import Path
 from os import environ
 

@@ -1,3 +1,11 @@
+"""
+Snake Game Using BFS - Portfolio Version
+Modified and documented by Hassan Abdulsalam Mohammed
+Copyright (c) 2026 Hassan Abdulsalam Mohammed
+
+This file is part of the cleaned GitHub portfolio version.
+"""
+
 # Dimensions
 WIDTH = 612   # Width of game surface
 HEIGHT = 612  # Height of game surface
