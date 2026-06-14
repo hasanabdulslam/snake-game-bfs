@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Sensitive / local files
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.rar
+*.zip
+.env
+
+# Private branding / institution-specific files
+*university_logo*
+*college_logo*
+*private_branding*

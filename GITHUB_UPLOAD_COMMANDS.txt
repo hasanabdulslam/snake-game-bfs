@@ -1,0 +1,23 @@
+# GitHub Upload Commands
+
+# 1) Go to the project folder
+cd ~/Downloads/snake-game-bfs-github-ready
+
+# 2) Start a clean Git repository
+git init
+git add .
+git commit -m "Initial commit - AI Snake Game using BFS"
+
+# 3) Connect to your GitHub repository
+# Replace the repository URL if you choose a different repo name.
+git branch -M main
+git remote add origin https://github.com/hasanabdulslam/snake-game-bfs.git
+
+# 4) Remove old cached GitHub credentials on Mac
+printf "host=github.com
+protocol=https
+
+" | git credential-osxkeychain erase
+
+# 5) Push to GitHub
+git push -u origin main
